@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family:"Poppins", sans-serif;
+}
+.container {
+    display: block;
+    padding: 0px 8%;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.dr-logo img {
+    height: 100%;
+    width: 50px;
+    margin-top: 5px;
+}
+
+.logo {
+    width: 100%;
+    max-width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.small-box {
+    display: flex;
+    align-items: center;
+}
+
+.bold {
+    font-weight: bold;
+
+}
+
+.box-text {
+    padding: 0px 15px;
+}
+
+.header {
+    padding: 5px 0px 0px 0px;
+}
+
+.countrys {
+    display: flex;
+    align-items: center;
+}
+
+.countrys select {
+    width: 100%;
+    max-width: 18px;
+    padding: 0px 5px;
+    border: none;
+}
+
+/*  1 st section */
+.navbar ul {
+    width: 100%;
+    max-width: 1000px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 14px 0px;
+}
+
+.search-bar {
+    background-color: #0066ff;
+    color: #fff;
+    font-size: 24px;
+    font-weight: lighter;
+    padding: 16px 20px;
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.navbar li {
+    padding-right: 10px;
+}
+
+li {
+    text-decoration: none;
+    list-style: none;
+}
+
+.navbar {
+
+    background: #4992ff;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    padding: 4px 5px;
+}
+
+.search-bar input {
+    background-color: #0066ff;
+    outline: none;
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    padding: 0px 10px;
+    width: 100%;
+    max-width: 150px;
+}
+
+.fa-magnifying-glass {
+    font-size: 20px;
+}
+
+::placeholder {
+    color: white;
+}
+
+.cover-img {
+    background: url(/assets/image/bons-cover.png) center center no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 400px;
+
+    color: #fff;
+
+}
+
+.cover-text {
+    height: 400px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 80px 0px;
+}
+
+.span-red {
+    color: rgb(243, 0, 0);
+    font-weight: 700;
+    font-size: 20px;
+}
+
+
+
+.btn {
+    color: white;
+    background-color: #4992ff;
+    padding: 8px 30px;
+    font-weight: 600;
+    transition: 0.5s;
+    text-decoration: none;
+
+}
+
+nav {
+    border-bottom: .5px solid #999;
+
+
+}
+
+.list {
+    width: 100%;
+    max-width: 1200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 18px 0px;
+
+}
+
+.list li {
+    text-decoration: none;
+    list-style: none;
+}
+
+.list li a {
+    color: #555;
+    font-weight: 600;
+    text-decoration: none;
+    padding: 10px 10px 10px 0px;
+}
+
+.border {
+    padding: 40px 0px;
+    border-bottom: 2px dashed #0066ff;
+}
+
+.Overview .box-2 {
+    flex: 1;
+}
+
+.box-2 p {
+    font-size: 13px;
+    font-weight: 400;
+    padding: 10px 0;
+    color: #444;
+}
+
+.Overview .box-2 img {
+    height: 100%;
+    width: 100%;
+    padding-left: 40px;
+}
+
+/* overview section end */
+.box-3 {
+    border-bottom: 2px dashed #0066ff;
+    padding: 40px 0px;
+}
+
+.fa-circle-dot {
+    color: #7aafff;
+    font-size: 10px;
+    padding-right: 15px;
+}
+
+.content .row {
+    align-items: flex-start;
+}
+
+.input-card {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    width: 100%;
+    padding: 20px 20px;
+    box-shadow: 0px 0px 25px -20px #555;
+    border: 1px solid #ececec;
+    border-radius: 5px;
+}
+
+.input-card input {
+    padding: 10px;
+    width: 100%;
+    margin: 10px 0px;
+    outline: none;
+    border: 1px solid #ddd;
+    color: #999;
+}
+
+.content .row-2 .col-2:first-child {
+    flex: 2;
+    padding-right: 50px;
+}
