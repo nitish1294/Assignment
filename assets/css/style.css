@@ -5,9 +5,11 @@
     padding: 0;
     box-sizing: border-box;
 }
-body{
-    font-family:"Poppins", sans-serif;
+
+body {
+    font-family: "Poppins", sans-serif;
 }
+
 .container {
     display: block;
     padding: 0px 8%;
@@ -109,7 +111,7 @@ li {
     background-color: #0066ff;
     outline: none;
     border: none;
-    color: #fff;
+    color: white;
     font-size: 16px;
     padding: 0px 10px;
     width: 100%;
@@ -120,9 +122,6 @@ li {
     font-size: 20px;
 }
 
-::placeholder {
-    color: white;
-}
 
 .cover-img {
     background: url(/assets/image/bons-cover.png) center center no-repeat;
@@ -232,7 +231,7 @@ nav {
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
-    width: 100%;
+    width: 25vw;
     padding: 20px 20px;
     box-shadow: 0px 0px 25px -20px #555;
     border: 1px solid #ececec;
@@ -252,3 +251,500 @@ nav {
     flex: 2;
     padding-right: 50px;
 }
+
+
+
+
+
+
+
+/* FAQ Styling */
+.nav-wrapper {
+    width: 100%;
+}
+
+.col-2 h2 {
+    padding: 20px 0px;
+}
+
+.nav-item {
+    border-top: 1px solid rgba(255, 255, 255, 0.25);
+}
+
+.nav-item-inner-heading {
+    position: relative;
+    padding: 1rem;
+    font-size: 15px;
+    font-weight: 700;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.nav-item-inner-heading:before {
+    content: "\f067";
+    font-family: FontAwesome;
+    font-style: normal;
+    font-size: 1rem;
+    color: #0066ff;
+    margin-right: 10px;
+}
+
+
+.nav-item-inner-heading.minus:before {
+    content: "\f068";
+}
+
+.nav-sub-list {
+    display: none;
+    font-size: .9rem;
+    padding: 0 1rem 1rem;
+    background-color: #f9f9f9;
+}
+
+.nav-sub-list-inner {
+    padding: 0 .75rem;
+}
+
+.nav-sub-item {
+    padding-left: .75rem;
+    margin-top: .375rem;
+    font-style: italic;
+}
+
+
+/* blog section */
+.boxes {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.card {
+    width: 100%;
+    border: 1px solid #ddd;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    margin-right: 20px;
+}
+
+.card img {
+    width: 325px;
+    height: 100%;
+}
+
+.card-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.fa-quote-right {
+    font-size: 30px;
+    color: rgb(255, 70, 70);
+
+}
+
+.card-bottom {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.card-bottom img {
+    width: 50px;
+    height: 100%;
+}
+
+.card-bottom-text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 15px;
+}
+.p-40{
+    padding: 40px 0px;
+}
+
+
+
+/* top doctor section */
+.doctor-team{
+    background-color: #cdd9e4;
+    padding: 60px 0px;
+}
+.doctor-team .row{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.title h3{
+    color: red;
+    margin-bottom: 5px;
+}
+.title h2{
+    font-weight: 600;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+.title .span-blue{
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.dr-cards{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.dr-card{
+    background-color: #fff;
+    padding: 10px;
+    margin: 10px;
+    box-shadow: 0px 0px 28px -20px #555;
+
+}
+.dr-card img{
+    max-height: 300px;
+    width: 100%;
+    max-width: 350px;
+}
+.dr-card h4{
+    color: rgb(255, 34, 34);
+}
+.dr-card p{
+    font-size: 16px;
+    font-weight: 600;
+    color: #444;
+}
+.dr-card small{
+    color: #777;
+    font-weight: 500;
+}
+
+
+.span-blue {
+    color: #0066ff;
+    padding-right: 10px;
+    font-size: 18px;
+}
+
+/* ======= Hospitals ======== */
+.Hospitals{
+    background-color: #FFF;
+}
+.Hospitals .dr-card{
+    padding: 0px 0px;
+    border: 1px dashed rgb(255, 34, 34);
+    border-radius: 8px;
+    box-shadow: none;
+}
+.Hospitals .dr-card img{
+    max-width: 400px;
+    height: 100%;
+    max-height: 400px;
+    
+}
+.Hospitals .dr-card p{
+    padding: 10px 0px;
+    font-size: 20px;
+}
+.Hospitals .dr-card h4{
+    padding-bottom: 15px;
+}
+.title p{
+    margin-top: 30px;
+}
+.title p .span-red{
+    text-decoration: underline;
+    font-size: 16px;
+}
+
+
+/* ========= Footer ======== */
+.footer{
+    margin-top: 50px;
+}
+.footer p{
+    color: #FFF;
+}
+.footer-header{
+    background-color: #4992ff;
+    color: #fff;
+    padding: 30px 0px;
+    font-size: 40px;
+    font-weight: 300;
+    text-align: center;
+}
+.footer-header p{
+    font-size: 20px;
+    font-weight: 500;
+}
+.footer-header h1{
+    font-size: 38px;
+    font-weight: 500;
+}
+.footer-header h3{
+    font-size: 22px;
+    font-weight: 600;
+}
+.footer-header .btn{
+    font-size: 18px;
+    font-weight: 500;
+    background-color: #0066ff;
+}
+.footer-links{
+    background-color: #0b2432;
+    color: #FFF;
+    padding: 30px 0px;
+}
+.footer-links .row{
+    align-items: flex-start;
+    padding-bottom: 30px;
+}
+.footer-links li{
+    list-style:none ;
+    font-size: 13px;
+    cursor: pointer;
+}
+.footer-links .col-2{
+    padding: 0px 10px;
+
+}
+.footer-links h4{
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+.footer-links hr{
+    border: .5px solid #666;
+}
+.footer-content .col-2 h5{
+    color: #4992ff;
+    font-size: 20px;
+}
+.footer-content{
+    background-color: #0b2432;
+    color: #FFF;
+}
+.social-icons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.main-logo img{
+    width: 300px;
+}
+.social-icons img{
+    width: 26px;
+    height: 100%;
+    margin: 5px;
+}
+.footer-text{
+    width: 100%;
+    max-width: 500px;
+    margin: 0px 20px;
+}
+.footer-end{
+    background-color: #4992ff;
+    color: #FFF;
+    padding: 10px 0px;
+}
+.footer-end p{
+    font-weight: 500;
+    
+}
+
+
+
+
+
+
+
+
+
+
+/*ANCHOR Enteties */
+.btn{
+    color: white;
+    background-color: #4992ff;
+    padding: 8px 30px;
+    font-weight: 600;
+    transition: 0.5s;
+}
+.btn:hover{
+    background-color: #0066ff;
+}
+
+li{
+    text-decoration: none;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.d-flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+
+/* ANCHOR ============= Resposiveness =============== */
+
+
+@media screen and (max-width: 1150px){
+    .small-container{
+        padding: 0px 3%;
+    }
+    .header .contacts img{
+        width: 25px;
+    }
+    .contact-text{
+        padding: 3px;
+    }
+    .contact-text p{
+        font-size: 8px;
+    }
+    .contact-text h5{
+        font-size: 8px;
+    }
+    .navbar ul li a{
+        font-size: 12px;
+        text-overflow: clip;
+        padding: 0;
+        white-space: nowrap;
+        display: block;
+    }
+    .navbar, .navbar-2{
+        overflow-y: scroll;
+    }
+    .search-bar{
+        padding: 5px 10px;
+    }
+    .search-bar i, ::placeholder{
+        font-size: 12px;
+    }
+    .navbar-2 ul li a{
+        font-size: 12px;
+        padding: 5px 10px 5px 0px;
+        white-space: nowrap;
+    }
+    .content .row{
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .contact-text{
+        display: none;
+    }
+    .search-bar{
+        display: none;
+    }
+    .Overview .row{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .Overview .col-2 img{
+        padding-left: 0px;
+        margin-top: 20px;
+    }
+    .footer-links .row{
+        flex-direction: column;
+    }
+    .footer-links .col-2{
+        padding: 10px;
+    }
+    .footer-content .row{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .content .row-2 .col-2:first-child {
+        padding-right: 0px;
+    }
+    .footer-content .col-2{
+        padding: 20px 0px;
+    }
+    .footer-end .row{
+        flex-direction: column;
+        text-align: center;
+    }
+    .story-card{
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .dr-logo img{
+        width: 30px;
+    }
+    .header .logo #logo-img{
+        width: 80px;
+        padding-right: 10px;
+    }
+    .logo{
+        justify-content: flex-start;
+    }
+    .col-small {
+        padding-right: 10px;
+    }
+    .doctor-team .dr-cards{
+        flex-direction: column;
+    }
+}
+
+
+@media screen and (max-width: 500px){
+    .header .contacts img{
+        width: 20px;
+    }
+    .carousal-text{
+        padding: 30px 0px;
+    }
+    .carousal-text h1{
+        font-size: 30px;
+    }
+    .carousal-text h4{
+        font-size: 14px;
+    }
+    .carousal-text p{
+        font-size: 14px;
+    }
+    .main-logo img{
+        width: 200px;
+    }
+    .countrys img{
+        width: 30px;
+    }
+    .footer-text{
+        margin: 0;
+    }
+    .story-card .card{
+        margin: 0;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
