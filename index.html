@@ -6,6 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AAFIYA MEDIRETREATS</title>
     <link rel="stylesheet" href="assets/css/style.css">
+    <!-- Include Owl Carousel CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
 
     <!-- font awesome cdn -->
     <script src="https://kit.fontawesome.com/061d48e511.js" crossorigin="anonymous"></script>
@@ -14,16 +18,16 @@
 <body>
     <header class="header">
         <div class="container ">
-            <div class="row">
+            <div class="row wrap">
                 <div class="logo">
-                    <img src="assets/image/white-logo.png" alt="logo" height=" 56" width="176">
+                    <img src="assets/image/white-logo.png" loading="lazy" height=" 56" width="176">
                     <div class="doctor-logo">
-                        <img src="assets/image/logo2.png" alt="" width="50" height="50">
+                        <img src="assets/image/logo2.png" width="50" height="50">
                     </div>
                 </div>
                 <div class="box">
                     <div class="small-box">
-                        <img src="assets/image/book.svg" alt="" height="40 " width="40">
+                        <img src="assets/image/book.svg" loading="lazy" height="40 " width="40">
                         <div class="box-text">
                             <p>Second Medical Opinion</p>
                             <p class="bold">Book Consultation</p>
@@ -33,7 +37,7 @@
                 </div>
                 <div class="box">
                     <div class="small-box">
-                        <img src="assets/image/call.png" alt="" height="60 " width="60">
+                        <img src="assets/image/call.png" height="60 " loading="lazy" width="60">
                         <div class="box-text">
                             <p>Call Us On</p>
                             <p class="bold">985 896 2222</p>
@@ -43,7 +47,7 @@
                 </div>
                 <div class="box">
                     <div class="small-box">
-                        <img src="assets/image/email.jpg" alt="" height="40 " width="40">
+                        <img src="assets/image/email.jpg" height="40 " loading="lazy" width="40">
                         <div class="box-text">
                             <p>Email Us On</p>
                             <p class="bold">info@mediretreats.com
@@ -53,7 +57,7 @@
                     </div>
                 </div>
                 <div class="countrys">
-                    <img src="assets/image/india.svg" alt="" height="40" width="40">
+                    <img src="assets/image/india.svg" alt="" height="40" loading="lazy" width="40">
                     <select id="country" name="country" class="form-control">
                         <option value="India">India</option>
                         <option value="Afghanistan">Afghanistan</option>
@@ -71,7 +75,7 @@
         <!-- 1st section complete -->
         <!-- navbar section complete -->
         <div class="container navbar">
-            <div class="row">
+            <div class="row wrap">
                 <ul class="link-background">
                     <li><a href="" class="left">Home</a></li>
                     <li><a href="" class="left">About US</a></li>
@@ -82,12 +86,18 @@
                     <li><a href="" class="left">Blog</a></li>
                     <li><a href="" class="left">Request A Quote</a></li>
                 </ul>
+
                 <div class="search-bar">
                     <i class="fa-solid fa-magnifying-glass"></i>
                     <input type="text" placeholder="Search">
                 </div>
+                <div class="icons">
+                    <i class="fa-solid fa-bars"></i>
+                    <i class="fa-solid fa-xmark"></i>
+                </div>
             </div>
         </div>
+
     </header>
 
     <!-- Poster section start -->
@@ -110,17 +120,17 @@
     <!-- Navbar section start -->
     <nav>
         <div class="container">
-            <div class="row">
+            <div class="row wrap">
                 <ul class="list">
-                    <li><a href="" class="active active-btn">Overview</a></li>
-                    <li><a href="" class="active-btn">Eligibility</a></li>
-                    <li><a href="" class="active-btn">Preparation</a></li>
-                    <li><a href="" class="active-btn">About Treatment</a>
+                    <li><a href="#Overview" class="active active-btn">Overview</a></li>
+                    <li><a href="#Eligibility" class="active-btn">Eligibility</a></li>
+                    <li><a href="#Preparation" class="active-btn">Preparation</a></li>
+                    <li><a href="#About" class="active-btn">About Treatment</a>
                     </li>
-                    <li><a href="" class="active-btn">Post-Treatment Care</a></li>
-                    <li><a href="" class="active-btn">Recovery Tips</a></li>
-                    <li><a href="" class="active-btn">FAQs</a></li>
-                    <li><a href="" class="active-btn">Patient Stories</a></li>
+                    <li><a href="#Post-Treatment" class="active-btn">Post-Treatment Care</a></li>
+                    <li><a href="#Recovery" class="active-btn">Recovery Tips</a></li>
+                    <li><a href="#FAQs" class="active-btn">FAQs</a></li>
+                    <li><a href="#Patient" class="active-btn">Patient Stories</a></li>
                 </ul>
             </div>
         </div>
@@ -130,10 +140,10 @@
 
 
     <!-- Overview section start -->
-    <section class="Overview">
+    <section class="Overview" id="Overview">
         <div class="container">
-            <div class="row border">
-                <div class="box-2">
+            <div class="row collume border">
+                <div class="box-2 ">
                     <h2>Treatment Overview<span class="span-red">.</span></h2>
                     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facilis, cum ducimus? Vero dolores
                         ducimus dicta veritatis, sapiente nam laborum hic!</p>
@@ -149,7 +159,7 @@
                         quae dolorem minus inventore.</p>
                 </div>
                 <div class="box-2">
-                    <img src="assets/image/overview.webp" alt="">
+                    <img src="assets/image/overview.jpg" loading="lazy" alt="">
                 </div>
 
             </div>
@@ -159,11 +169,11 @@
 
 
     <!-- Content section start -->
-    <section class="content">
+    <section class="content" id>
         <div class="container">
             <div class="row border ">
-                <div class="box-2">
-                    <div class="box-3">
+                <div class="box-2 ">
+                    <div class="box-3" id="Eligibility">
                         <h2>Eligibility For Treatment<span class="span-red">.</span></h2>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita officia nulla ut voluptatem
                             quae adipisci unde dicta mollitia fugiat quia, incidunt architecto impedit illum qui! Rerum
@@ -182,7 +192,7 @@
 
 
 
-                    <div class="box-3">
+                    <div class="box-3" id="Preparation">
                         <h2>Preparation Before Treatment<span class="span-red">.</span></h2>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita officia nulla ut voluptatem
                             quae adipisci unde dicta mollitia fugiat quia, incidunt architecto impedit illum qui! Rerum
@@ -201,7 +211,7 @@
 
 
 
-                    <div class="box-3">
+                    <div class="box-3" id="About">
                         <h2>About Treatment<span class="span-red">.</span></h2>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita officia nulla ut voluptatem
                             quae adipisci unde dicta mollitia fugiat quia, incidunt architecto impedit illum qui! Rerum
@@ -221,7 +231,7 @@
 
 
 
-                    <div class="">
+                    <div class="" id="Post-Treatment">
                         <h2>Eligibility For Treatment<span class="span-red">.</span></h2>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita officia nulla ut voluptatem
                             quae adipisci unde dicta mollitia fugiat quia, incidunt architecto impedit illum qui! Rerum
@@ -240,7 +250,7 @@
 
 
                 </div>
-                <div class="box-2">
+                <div class="box-2 " id="Recovery">
                     <div class="input-card">
                         <h3>Need Help?</h3>
                         <p>Just let us know we will be happy to assist you.</p>
@@ -259,9 +269,9 @@
 
 
     <!-- FAQs section Start -->
-    <section class="faq ">
+    <section class="faq" id="FAQs">
         <div class="container">
-            <div class="col-2 border" id="FAQs">
+            <div class="box-2 border" id="FAQs">
                 <h2>Treatment FAQs<span class="span-red">.</span></h2>
                 <hr>
 
@@ -351,90 +361,96 @@
     <!-- FAQs section End -->
 
     <!-- Blog section start -->
-    <section class="p-40">
+    <section class="p-40" id="Patient">
         <div class="container ">
             <h2 class=" p-40">Patient Stories &amp; Videos<span class="span-red">.</span></h2>
-            <div class="row ">
-                <div class="boxes">
-                    <div class="card">
-                        <div class="card-top">
-                            <h5>Underwent procedure for <br> retinal detachment</h5>
-                            <i class="fa-solid fa-quote-right"></i>
-                        </div>
-                        <img src="assets/image/blog-1.png" alt="">
-                        <div class="card-bottom">
-                            <img src="assets/image/avatar/Testimonial Avater 1.png" alt="">
-                            <div class="card-bottom-text">
-                                <p>Luke Olfert</p>
-                                <small>New York, USA</small>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <div class="card-top">
-                            <h5>Underwent Colonoscopy and <br>Mrdical Management</h5>
-                            <i class="fa-solid fa-quote-right"></i>
-                        </div>
-                        <img src="assets/image/blog-1.png" alt="">
-                        <div class="card-bottom">
-                            <img src="assets/image/avatar/Testimonial Avater 2.png" alt="">
-                            <div class="card-bottom-text">
-                                <p>Luke Olfert</p>
-                                <small>New York, USA</small>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <div class="card-top">
-                            <h5>Underwent procedure for <br> retinal detachment</h5>
-                            <i class="fa-solid fa-quote-right"></i>
-                        </div>
-                        <img src="assets/image/blog-1.png" alt="">
-                        <div class="card-bottom">
-                            <img src="assets/image/avatar/Testimonial Avater 3.png" alt="">
-                            <div class="card-bottom-text">
-                                <p>Luke Olfert</p>
-                                <small>New York, USA</small>
-                            </div>
-                        </div>
-                    </div>
 
+            <div class="row">
+
+
+                <div class="boxes owl-carousel owl-theme">
+                    <div class="card">
+                        <div class="card-top">
+                            <h5>Underwent procedure for <br> retinal detachment</h5>
+                            <i class="fa-solid fa-quote-right"></i>
+                        </div>
+                        <img src="assets/image/blog-1.png" loading="lazy" alt="">
+                        <div class="card-bottom">
+                            <img src="assets/image/avatar/Testimonial Avater 1.png" loading="lazy" alt="">
+                            <div class="card-bottom-text">
+                                <p>Luke Olfert</p>
+                                <small>New York, USA</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-top">
+                            <h5>Underwent Colonoscopy and <br>Medical Management</h5>
+                            <i class="fa-solid fa-quote-right"></i>
+                        </div>
+                        <img src="assets/image/blog-1.png" loading="lazy" alt="">
+                        <div class="card-bottom">
+                            <img src="assets/image/avatar/Testimonial Avater 2.png" alt="" loading="lazy">
+                            <div class="card-bottom-text">
+                                <p>Luke Olfert</p>
+                                <small>New York, USA</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-top">
+                            <h5>Underwent procedure for <br> retinal detachment</h5>
+                            <i class="fa-solid fa-quote-right"></i>
+                        </div>
+                        <img src="assets/image/blog-1.png" alt="" loading="lazy">
+                        <div class="card-bottom">
+                            <img src="assets/image/avatar/Testimonial Avater 3.png" alt="" loading="lazy">
+                            <div class="card-bottom-text">
+                                <p>Luke Olfert</p>
+                                <small>New York, USA</small>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- You can add more .card elements as needed -->
 
                 </div>
-
             </div>
+
         </div>
 
     </section>
     <!-- Blog section End -->
     <!-- top doctor section start -->
     <section>
-        <div class="doctor-team">
-            <div class="container">
+        <div class=" container">
+            <div class="doctor-team">
                 <div class="row">
                     <div class="title">
                         <h3>Doctors</h3>
                         <h2>Top Orthopaedics <span class="span-blue">Doctors</span></h2>
                     </div>
-                    <div class="dr-cards">
+
+                    <div class="dr-cards owl-carousel owl-theme">
+
                         <div class="dr-card">
-                            <img src="assets/image/pink bg.jpg" alt="">
+                            <img src="assets/image/pink bg.jpg" alt="" loading="lazy">
                             <h4>Dr. Faique Falke</h4>
                             <p>Musaffah Industrial - Abu Dhabi</p>
                             <small>Doctor Degree &amp; Specialist</small>
                         </div>
                         <div class="dr-card">
-                            <img src="assets/image/pink bg.jpg" alt="">
+                            <img src="assets/image/pink bg.jpg" alt="" loading="lazy">
                             <h4>Dr. Faique Falke</h4>
                             <p>Musaffah Industrial - Abu Dhabi</p>
                             <small>Doctor Degree &amp; Specialist</small>
                         </div>
                         <div class="dr-card">
-                            <img src="assets/image/pink bg.jpg" alt="">
+                            <img src="assets/image/pink bg.jpg" alt="" loading="lazy">
                             <h4>Dr. Faique Falke</h4>
                             <p>Musaffah Industrial - Abu Dhabi</p>
                             <small>Doctor Degree &amp; Specialist</small>
                         </div>
+
                     </div>
                 </div>
             </div>
@@ -451,23 +467,24 @@
                         <h3>Hospital</h3>
                         <h2>Recommend <span class="span-blue">Hospitals</span></h2>
                     </div>
-                    <div class="dr-cards">
+                    <div class="dr-cards owl-carousel owl-theme">
                         <div class="dr-card">
-                            <img src="assets/image/hospital-2.jpg" alt="">
+                            <img src="assets/image/hospital-1.png" alt="" loading="lazy">
                             <p>Apollo Hospital</p>
                             <h4>Bangalore</h4>
                         </div>
                         <div class="dr-card">
-                            <img src="assets/image/hospital-2.jpg" alt="">
+                            <img src="assets/image/hospital-2.jpg" alt="" loading="lazy">
                             <p>Medanta Hospital</p>
                             <h4>Gurgaon</h4>
                         </div>
                         <div class="dr-card">
-                            <img src="assets/image/hospital-3.jpg" alt="">
+                            <img src="assets/image/hospital-3.jpg" alt="" loading="lazy">
                             <p>Jaslok Hospital</p>
                             <h4>Mumbai</h4>
                         </div>
                     </div>
+
                     <div class="title">
                         <p>Don't hesitate, contact us for better help and services. <span class="span-red">Explore all
                                 Hospitals</span></p>
@@ -483,8 +500,8 @@
             <div class="footer-header">
                 <div class="container d-flex">
                     <p>Stay healthy and strong to enjoy life</p>
-                    <h1>We have team of healthcare experts</h1>
-                    <div class="row">
+                    <h3>We have team of healthcare experts</h3>
+                    <div class="row touch">
                         <a href="" class="btn">Get In Touch</a>&nbsp; | &nbsp;
                         <h3>+91 898 777 9999</h3>
                     </div>
@@ -493,7 +510,7 @@
             <div class="footer-links">
                 <div class="container">
                     <div class="row">
-                        <div class="col-2">
+                        <div class="box-2">
                             <h4>Important Links</h4>
                             <ul>
                                 <li><span class="span-blue">-</span>Home</li>
@@ -503,7 +520,7 @@
                                 <li><span class="span-blue">-</span>Contact Us</li>
                             </ul>
                         </div>
-                        <div class="col-2">
+                        <div class="box-2">
                             <h4>Top Hospitals</h4>
                             <ul>
                                 <li><span class="span-blue">-</span>Apollo Hospital Delhi</li>
@@ -515,7 +532,7 @@
                                 <li><span class="span-blue">-</span>View All</li>
                             </ul>
                         </div>
-                        <div class="col-2">
+                        <div class="box-2">
                             <h4>Speciality Treatments</h4>
                             <ul>
                                 <li><span class="span-blue">-</span>Knee Replacement</li>
@@ -527,7 +544,7 @@
                                 <li><span class="span-blue">-</span>View All</li>
                             </ul>
                         </div>
-                        <div class="col-2">
+                        <div class="box-2">
                             <h4>Medical Tourism Destination</h4>
                             <ul>
                                 <li><span class="span-blue">-</span>Medical Tourism in India</li>
@@ -540,35 +557,33 @@
                     <hr>
                 </div>
             </div>
-            <div class="footer-content">
+            <div class="footer-content ">
                 <div class="container">
-                    <div class="row">
-                        <div class="col-2 main-logo">
-                            <img src="assets/image/logo.png" alt="">
+                    <div class="row wrap">
+                        <div class="box-2 main-logo">
+                            <img src="assets/image/logo.png" alt="" loading="lazy">
                         </div>
-                        <div class="col-2 footer-text">
+                        <div class="box-2 footer-text pad-top">
                             <h3>About Aafiya Mediretreats</h3>
-                            <small>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore vero dolor
-                                veritatis,
-                                saepe quas commodi autem vitae, earum accusantium doloribus aliquid, repudiandae magni
-                                nihil
-                                enim pariatur tempore libero hic doloremque! Nobis delectus harum impedit autem soluta!
-                                Nihil blanditiis deserunt non!</small>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore vero dolor
+                                veritatis, saepe quas commodi autem vitae, earum accusantium doloribus aliquid,
+                                repudiandae magni nihil enim pariatur tempore libero hic doloremque! Nobis delectus
+                                harum impedit autem soluta! Nihil blanditiis deserunt non!</p>
                         </div>
-                        <div class="col-2">
+                        <div class="box-2 pad-top ">
                             <h3>Follow Us On</h3>
-                            <div class="social-icons">
+                            <div class="social-icons ">
                                 <a href="">
-                                    <img src="assets/image/facebook icon.png" alt="">
+                                    <img src="assets/image/facebook icon.png" alt="" loading="lazy">
                                 </a>
                                 <a href="">
-                                    <img src="assets/image/twitter.png" alt="">
+                                    <img src="assets/image/twitter.png" alt="" loading="lazy">
                                 </a>
                                 <a href="">
-                                    <img src="assets/image/instagram.png" alt="">
+                                    <img src="assets/image/instagram.png" alt="" loading="lazy">
                                 </a>
                                 <a href="">
-                                    <img src="assets/image/youtube.png" alt="">
+                                    <img src="assets/image/youtube.png" alt="" loading="lazy">
                                 </a>
                             </div>
                             <p>Customer Service</p>
@@ -580,10 +595,10 @@
             <div class="footer-end">
                 <div class="container">
                     <div class="row">
-                        <div class="col-2">
-                            <p>Copyright © 2020 Aafiya Mediretreats. All Rights Reserved. Design By Avesh Khan.</p>
+                        <div class="box-2">
+                            <p>Copyright © 2020 Aafiya Mediretreats. All Rights Reserved. Design By Ideamagix.</p>
                         </div>
-                        <div class="col-2">
+                        <div class="box-2">
                             <p>Tearms And Conditions &nbsp; &nbsp; &nbsp; Privacy Policy</p>
                         </div>
                     </div>
@@ -595,29 +610,67 @@
 
     <!-- javascrip and jquery -->
 
-
-
-
-
-
-
-
-
-
-
-
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
     <script>
         $(document).ready(function () {
             $('.nav-item-inner-heading').click(function () {
-                // Toggle plus and minus classes
-                $(this).toggleClass('plus minus');
-                // Toggle the display of the sub-list
-                $(this).next('.nav-sub-list').slideToggle();
+                var $subList = $(this).next('.nav-sub-list');
+                if ($subList.is(':visible')) {
+                    $(this).toggleClass('plus minus');
+                } else {
+                    $('.nav-sub-list').slideUp();
+                    $('.nav-item-inner-heading').removeClass('minus').addClass('plus');
+                    $subList.slideDown();
+                    $(this).toggleClass('plus minus');
+                }
             });
         });
     </script>
+    <!-- slider -->
+    <script>
+        $(document).ready(function () {
 
+            var owl = $(".owl-carousel").owlCarousel({
+                items: 3,            
+                margin: 10,         
+                loop: true,         
+                nav: true,           
+                dots: false,         
+                responsive: {
+                    0: {
+                        items: 1     
+                    },
+                    600: {
+                        items: 2      
+                    },
+                    1000: {
+                        items: 3     
+                    }
+                }
+            });
+        });
+
+
+    </script>
+    <script>
+        $(document).ready(function () {
+           
+            $('.fa-xmark').hide();
+            $('.fa-bars').click(function () {
+                $('.link-background').slideToggle();
+                $(this).hide(); 
+                $('.fa-xmark').show(); 
+            });
+
+            
+            $('.fa-xmark').click(function () {
+                $('.link-background').slideToggle();
+                $(this).hide(); 
+                $('.fa-bars').show();
+            });
+        });
+    </script>
 
 </body>
 
