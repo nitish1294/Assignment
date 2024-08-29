@@ -28,16 +28,16 @@ This project is a test assignment for Ideamagix to demonstrate my skills in fron
 Here are some screenshots of the completed assignment:
 
 ### Full Page View
-![Full Page View](![screencapture-127-0-0-1-5500-index-html-2024-08-29-17_15_27](https://github.com/user-attachments/assets/8ea325e4-5ac0-4e28-be64-9d2d2d60c6f7)
-)
+
+![screencapture-127-0-0-1-5500-index-html-2024-08-29-17_15_27](https://github.com/user-attachments/assets/be95afab-9986-47fc-ae4f-edae258bf486)
 
 ### Mobile View
-![Mobile View](![screencapture-127-0-0-1-5500-index-html-2024-08-29-17_16_53](https://github.com/user-attachments/assets/82de514d-10c9-43d3-9e44-6ab05590c16c)
-)
+![screencapture-127-0-0-1-5500-index-html-2024-08-29-17_16_53](https://github.com/user-attachments/assets/f04f430b-5b26-4bdd-ae47-97c4567a30ae)
+
 
 ### Owl Carousel
-![Owl Carousel](![Screenshot 2024-08-29 171737](https://github.com/user-attachments/assets/0a0a4126-f011-47a8-a24f-5bb359a04a80)
-)
+
+![Screenshot 2024-08-29 171737](https://github.com/user-attachments/assets/6897a83b-2f82-4b8d-b6fb-4d5117729a64)
 
 > Note: Replace `path/to/your/screenshot.png` with the actual paths to your screenshot files. You can upload these screenshots to your GitHub repository and use their relative paths.
 
