@@ -16,6 +16,18 @@
 </head>
 
 <body>
+
+    <!--CSS Spinner-->
+    <div class="spinner-wrapper">
+        <div class="spinner">
+            <div class="sk-folding-cube">
+                <div class="sk-cube1 sk-cube"></div>
+                <div class="sk-cube2 sk-cube"></div>
+                <div class="sk-cube4 sk-cube"></div>
+                <div class="sk-cube3 sk-cube"></div>
+            </div>
+        </div>
+    </div>
     <header class="header">
         <div class="container ">
             <div class="row wrap">
@@ -99,6 +111,7 @@
         </div>
 
     </header>
+
 
     <!-- Poster section start -->
     <section class="container cover-img">
@@ -632,20 +645,20 @@
         $(document).ready(function () {
 
             var owl = $(".owl-carousel").owlCarousel({
-                items: 3,            
-                margin: 10,         
-                loop: true,         
-                nav: true,           
-                dots: false,         
+                items: 3,
+                margin: 10,
+                loop: true,
+                nav: true,
+                dots: false,
                 responsive: {
                     0: {
-                        items: 1     
+                        items: 1
                     },
                     600: {
-                        items: 2      
+                        items: 2
                     },
                     1000: {
-                        items: 3     
+                        items: 3
                     }
                 }
             });
@@ -655,22 +668,28 @@
     </script>
     <script>
         $(document).ready(function () {
-           
+
             $('.fa-xmark').hide();
             $('.fa-bars').click(function () {
                 $('.link-background').slideToggle();
-                $(this).hide(); 
-                $('.fa-xmark').show(); 
+                $(this).hide();
+                $('.fa-xmark').show();
             });
 
-            
+
             $('.fa-xmark').click(function () {
                 $('.link-background').slideToggle();
-                $(this).hide(); 
+                $(this).hide();
                 $('.fa-bars').show();
             });
         });
     </script>
+ <script>// JavaScript to hide the spinner after 3 seconds
+    window.addEventListener('load', function() {
+        setTimeout(function() {
+            document.querySelector('.spinner-wrapper').style.display = 'none';
+        }, 2000); // 3000 milliseconds = 3 seconds
+    });</script>  <!--CSS Spinner-->
 
 </body>
 
