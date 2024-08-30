@@ -148,7 +148,7 @@ li {
 
 
 .cover-img {
-    background: url("assets/image/bons-cover.png") center center no-repeat;
+    background: url("../assets/image/bons-cover.png") center center no-repeat;
     background-size: cover;
     width: 100%;
     height: 400px;
